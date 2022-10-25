@@ -1,10 +1,5 @@
-import type { NextPage } from 'next'
-
-
-const Home: NextPage = () => {
+export default function Home() {
   return (
-    <h1>Boa Brunao, agora dominar o Next !!!!</h1>
+    <h1>Hello World</h1>
   )
 }
-
-export default Home
